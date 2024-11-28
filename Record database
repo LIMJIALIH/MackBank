@@ -1,0 +1,23 @@
+package com.mycompany.y1s1assignment;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+/**
+ *
+ * @author hongtzeherng
+ */
+public class Database {
+    private static final String URL = "jdbc:mysql://localhost:3306/Y1S1Assignment";
+    private static final String USER = "root";
+    private static final String PASSWORD = "TzeLoon_0467";
+
+    public static Connection getConnection() {
+        try {
+            Connection connection = DriverManager.getConnection(URL, USER, PASSWORD);
+            return connection;
+        } catch (SQLException e) {
+            throw new RuntimeException("Error connecting to the database", e);
+        }
+    }
+}
