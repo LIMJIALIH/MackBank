@@ -1,0 +1,10 @@
+com\mycompany\mackbank\GUIMackBank.class
+com\mycompany\mackbank\CreditLoan.class
+com\mycompany\mackbank\Transactions.class
+com\mycompany\mackbank\LoginAndRegister.class
+com\mycompany\mackbank\DepositInterestPredictor.class
+com\mycompany\mackbank\InterfaceMackBank.class
+com\mycompany\mackbank\History.class
+com\mycompany\mackbank\Savings.class
+com\mycompany\mackbank\MackBank.class
+com\mycompany\mackbank\DebitAndCredit.class
